@@ -1,0 +1,285 @@
+/* MOBILE FIRST SECTION */
+@media (max-width: 745px) {
+  .mobileOnly {
+    display: block;
+  }
+
+  .desktopOnly {
+    display: none;
+  }
+
+  .logo {
+    width: 70%;
+  }
+
+  .dailyImage {
+    width: 100%;
+    border-radius: 3%;
+  }
+
+  .cateringBackground {
+    width: 100%;
+    height: 50px;
+    object-fit: cover;
+
+  }
+
+  .storeBackground {
+    margin: 15px 0;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+
+  }
+
+  .card-body img {
+    width: 60%;
+  }
+
+  .dailyButton {
+    display: inline-block;
+    width: 40%;
+
+  }
+
+  .dailySpecials a:link {
+    filter: contrast(0);
+  }
+
+  /* a:hover {
+    filter: contrast(100%);
+  } */
+
+
+  .sidenav i {
+    margin-left: 10px;
+  }
+
+  .topContainer {
+    background-image: linear-gradient(to bottom,  #fff, #fff, #fff,  #662729, #90382c, #b74f27, #d86c14);
+  }
+
+  .topContainerCatering {
+    background-color: #d86c14;
+
+  }
+
+  .middleContainer {
+    background-image: linear-gradient(to top,  #fff,#fff, #d86c14);
+  }
+
+
+  .cateringSelector {
+    padding: 4%;
+  }
+
+  .cateringSelector button {
+    background-color:#d86c14;
+    border-color: white;
+    border-radius: 10%;
+    width: 100%;
+    color: white;
+    font-family: "Nunito";
+  }
+
+  .hours {
+    background-color: #d86c14;
+    padding: 3% 2%;
+  }
+
+  .returns {
+    background-color: #d86c14;
+    padding: 3% 10%;
+  }
+
+  .credits {
+    background-color: #d86c14;
+    padding: 2px 10%;
+  }
+
+  .delivery {
+    padding: 3% 10%;
+  }
+
+  .contactPhone {
+    padding: 3% 10%;
+  }
+
+  .btn-secondary {
+    border-color: white;
+  }
+
+
+   input[type='radio']:checked:after {
+       width: 15px;
+       height: 15px;
+       border-radius: 15px;
+       top: -2px;
+       left: -1px;
+       position: relative;
+       background-color: #ffa500;
+       content: '';
+       display: inline-block;
+       visibility: visible;
+       border: 2px solid white;
+   }
+
+
+  /* TEXT EDITING */
+  p {
+    font-family: "Nunito";
+    font-size: 0.9rem;
+    padding: 8% 5% 8%;
+    color: white;
+    margin: 0;
+  }
+
+  .card-body p {
+    color:black;
+  }
+
+  #date {
+    font-weight: bold;
+    padding: 5% 10%;
+    color: white;
+  }
+
+  #daily {
+    padding-top: 20px;
+    font-family: "Balsamiq Sans";
+  }
+
+
+
+
+
+  .dailySpecials {
+    color: black;
+  }
+
+  h1 {
+    color: black;
+  }
+
+  .cateringSection h1 {
+    color: white;
+  }
+
+  .hours h1 {
+    color: white;
+    padding-top: 20px;
+    font-family: "Balsamiq Sans";
+  }
+
+  .delivery h1 {
+    color: grey;
+    padding-top: 20px;
+    font-family: "Balsamiq Sans";
+  }
+
+  .returns h1 {
+    color: white;
+    padding-top: 20px;
+    font-family: "Balsamiq Sans";
+  }
+
+  .contactPhone h1 {
+    color: grey;
+    padding-top: 20px;
+    font-family: "Balsamiq Sans";
+  }
+
+  h2 {
+    font-family: "Anton";
+    margin-right: 20px;
+  }
+
+  h3 {
+    padding-top: 20px;
+    font-family: "Balsamiq Sans";
+  }
+
+
+
+  .middleContainer hr {
+    margin: 0 20px;
+  }
+
+  /* SIDE NAVIGATION */
+
+  #main .fas {
+    color: black;
+    padding: 15px 15px 0 0;
+  }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    right: 0;
+    background-color: #d86c14;
+    overflow-x: hidden;
+    transition: 0.1s;
+    padding-top: 60px;
+    text-align:right;
+  }
+
+  .autoMargin {
+    margin: auto;
+  }
+
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.1s;
+
+  }
+
+  .sidenav a:hover{
+    color: black;
+  }
+
+
+
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/* DESKTOP DISPLAY OR TABLET ONLY */
+@media (min-width: 745px) {
+  .mobileOnly {
+    display: none;
+  }
+
+  .desktopOnly {
+    display: block;
+  }
+}
+
+.textalignright {
+  text-align: right;
+}
+
+.textaligncenter {
+  text-align: center;
+}
+
+.textalignleft {
+  text-align: left;
+}

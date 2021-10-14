@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Olde World Bagels & Deli</title>
+
+  <!-- Bootstrap-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/dd9a97d0e2.js" crossorigin="anonymous"></script>
+  <!-- Javascript-->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <link rel="icon" href="https://pngimg.com/uploads/bagel/bagel_PNG7.png">
+
+
+</head>
+
+<body class="cateringSection">
+  <section class="topContainerCatering">
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <hr>
+      <h2>Olde World Bagel & Deli</h2>
+      <hr>
+      <a href="index.html">
+        <h6>HOME<i class="fas fa-home"></i></h2>
+      </a>
+      <a href="javascript:void(0)" onclick="menuOpen()">
+        <h6>MENU<i class="fas fa-book-open"></i></h2>
+      </a>
+      <div id="menuSub">
+        <a href="menuBagel.html">
+          <h6>Bagels</h2>
+        </a>
+        <a href="menuCoffee.html">
+          <h6>Coffee</h2>
+        </a>
+      </div>
+      <a href="wholesale.html">
+        <h6>WHOLESALE<i class="fas fa-edit"></i></h2>
+      </a>
+      <a href="catering.html">
+        <h6>CATERING<i class="fas fa-utensils"></i></h2>
+      </a>
+      <a href="contact.html">
+        <h6>CONTACT<i class="fas fa-phone-square"></i></h2>
+      </a>
+      <p>1670 E Cheyenne Mountain Blvd
+        Suite AB
+        Colorado Springs, CO 80906</p>
+    </div>
+
+    <script type="text/javascript">
+      document.getElementById("menuSub").style.display = "none";
+    </script>
+
+    <div id="main" class="mobileOnly textalignright">
+      <a class="openbtn" onclick="openNav()"><i class="fas fa-2x fa-bars"></i></a>
+    </div>
+
+    <div class="textaligncenter ">
+      <h1>Catering Services</h1>
+      <img class="cateringBackground" src="images/bagel-background.png" alt="">
+
+
+
+    </div>
+
+
+  </section>
+
+  <section class="cateringSelector textaligncenter">
+    <div class="btn-group autoMargin">
+      <button type="" onclick="firstOption()" name="options" id="option1" autocomplete="off" checked> Standard Trays</button>
+      <button type="" onclick="secondOption()" name="options" id="option2" autocomplete="off"> Custom Trays</button>
+      <button type="" onclick="thirdOption()"name="options" id="option3" autocomplete="off"> Lunch Boxes</button>
+    </div>
+  </section>
+
+
+  <section id="standardTrays" class="textaligncenter">
+    <h3>Standard Trays</h2>
+      <hr>
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Dozen Bagel Tray</div>
+        <div class="card-body">
+          <h5 class="card-title">$22.95</h5>
+          <img src="images/dozenBagelTray.png" alt="">
+          <p class="card-text">13 assorted sliced bagels and two 8oz tins of cream cheese on a round tray, wrapped in plastic wrap.</p>
+        </div>
+      </div>
+
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Muffin Tray</div>
+        <div class="card-body">
+          <h5 class="card-title">$27.50</h5>
+          <img src="images/muffinTray.png" alt="">
+          <p class="card-text">10 assorted muffins and 4oz of butter on a round tray wrapped in plastic wrap.</p>
+        </div>
+      </div>
+
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Pastry Tray</div>
+        <div class="card-body">
+          <h5 class="card-title">$29.95</h5>
+          <img src="images/pastryTray.png" alt="">
+          <p class="card-text">four cinamon rolls (cut into pieces), four danish and four muffins on a round tray wrapped in plastic wrap.</p>
+        </div>
+      </div>
+
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Fruit Bowl</div>
+        <div class="card-body">
+          <h5 class="card-title">$3.25/person (min of 10)</h5>
+          <img src="images/fruitBowl.png" alt="">
+          <p class="card-text">*Recquires 48 hour notice* A variety of melons, berries, grapes and pineapple.</p>
+        </div>
+      </div>
+  </section>
+
+  <section id="customTrays" class="textaligncenter">
+    <h3>Custom Trays</h2>
+      <hr>
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Breakfast Spread</div>
+        <div class="card-body">
+          <h5 class="card-title">$3.25/person (min of 6)</h5>
+          <img src="images/breakfastSpread.png" alt="">
+          <p class="card-text">Bagels, muffins, and pastries with tubs of cream cheese.</p>
+        </div>
+      </div>
+
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Lunch Spread</div>
+        <div class="card-body">
+          <h5 class="card-title">$9.99/person (min of 6)</h5>
+          <img src="images/lunchSpread.png" alt="">
+          <p class="card-text">Sliced bagels, meats, cheeses, veggies and condiments that allow your group to build their own sandwiches. Meats: ham, oven roasted turkey, smoked turkey, roast beef and pastrami. Cheeses: American, Cheddar, Provolone
+            and Pepper Jack. Veggies: lettuce, tomato, red onions, pickles and sprouts.</p>
+        </div>
+      </div>
+
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Lox Spread</div>
+        <div class="card-body">
+          <h5 class="card-title">$12.50/person (min of 6)</h5>
+          <img src="images/loxSpread.png" alt="">
+          <p class="card-text">Smoked salmon, red onions, sliced tomatoes, plain cream cheese and sliced bagels.</p>
+        </div>
+      </div>
+
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Sweet Spread</div>
+        <div class="card-body">
+          <h5 class="card-title">$12.50/person (min of 12)</h5>
+          <img src="images/sweetSpread.png" alt="">
+          <p class="card-text">Tray of cookies, brownies, cinamon rolls and bagel bites.</p>
+        </div>
+      </div>
+
+  </section>
+
+  <section id="lunchBoxes" class="textaligncenter">
+    <h3>Lunch Boxes</h2>
+      <hr>
+      <div class="card border-dark mb-3 autoMargin" style="max-width: 18rem;">
+        <div class="card-header">Olde World Deli Sandwich, chips, pickle and cookie</div>
+        <div class="card-body">
+          <h5 class="card-title">$12.75</h5>
+          <h5 class="card-title">$14.00 w/ fruit</h5>
+
+          <img src="images/boxLunch.png" alt="">
+          <p class="card-text">Choose form Oven Roasted Turkey, Smoked Turkey, Roast Beef, Pastrami, Chicken, Tuna Salad, Chicken Salad, Egg Salad or choose any of our Olde World Bagel's Signature Sandwiches.</p>
+        </div>
+      </div>
+
+  </section>
+
+  <script type="text/javascript">
+    document.getElementById("lunchBoxes").style.display = "none";
+    document.getElementById("customTrays").style.display = "none";
+  </script>
+
+  <script type="text/javascript" src="myScript.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
